@@ -1,0 +1,61 @@
+#Myfirstbutton
+{
+    width:100px;
+    background-color:rgb(94, 139, 223);
+    border-radius: 5px;
+    margin-left: 600px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+#container
+{
+    border: 2px solid black ;
+    margin-top:10px;
+    padding: 15px;
+    display:flex;
+    border-radius: 10px;
+}
+
+#BreadCrumb
+{
+    border: 2px solid black ;
+    margin-top:10px;
+    margin-bottom:10px;
+    display:flex;
+ 
+}
+.path
+{
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    border-right: 3px solid black;
+}
+.path:hover{
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+}
+.folder
+{
+    background-color:rgba(245, 182, 9, 0.377);
+    margin:5px;
+   border-radius: 10px;
+    height:100px;
+    width:120px;
+}
+.folder [action]
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+div[purpose='name']
+{
+    margin-top: 45px;
+}
+#Myfirstbutton:hover
+{
+    transform: scale(1.02);
+}
